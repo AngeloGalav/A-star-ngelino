@@ -1,4 +1,4 @@
-# A*ngelino (or A-ngelino)
+# A*ngelino (or A-star-ngelino)
 
 An A* star shortest-path visualizer made in one day as a coding challenge.
 
