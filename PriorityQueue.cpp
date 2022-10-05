@@ -58,11 +58,12 @@ void PriorityQueue<T>::printRec(BinTreeElem<T>* toPrint)
 {
 	if (toPrint != NULL) 
 	{
-		std::cout << root.treeElem.key << " " << endl;
+		std::cout << root.treeElem.key << " " << std::endl;
 		printRec(toPrint->l_son);
 		printRec(toPrint->r_son);
 	}
 }
+
 
 
 template <class T>
@@ -115,10 +116,5 @@ void PriorityQueue<T>::fixTree()
 
 		if (p.r_son != NULL) queue.push(*(p.r_son));
 
-		if (counterLayer == 0) 
-		{
-			i++;
-			counterLayer = std::pow();
-		}
 	}
 }

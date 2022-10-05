@@ -3,10 +3,11 @@
 #include <functional>
 #include <queue>
 #include <vector>
-#include <windows.h>
+#include <cmath>
+//#include <windows.h>
 #include <iostream>
-#define GRIDSIZE 20
-#define WINDOWSIZE 900
+#define GRIDSIZE 10
+#define WINDOWSIZE 300
 
 float dist[(WINDOWSIZE / GRIDSIZE)* (WINDOWSIZE / GRIDSIZE)];
 float cost[(WINDOWSIZE / GRIDSIZE) * (WINDOWSIZE / GRIDSIZE)];

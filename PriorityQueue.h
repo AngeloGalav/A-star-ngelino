@@ -1,4 +1,5 @@
 #pragma once
+#include <cmath>
 #include <functional>
 #include <queue>
 #include <vector>
@@ -6,7 +7,7 @@
 
 /*
 	Classe della PriorityQueue fatta da me.
-	Un giorno forse la rifarò meglio...
+	Un giorno forse la rifarï¿½ meglio...
 
 	TODO: Add puntatore al nodo adiacente in modo da creare una lista monodirezionale di nodi sullo stesso layer.
 */
