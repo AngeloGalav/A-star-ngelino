@@ -21,7 +21,7 @@ void Djikstra(Node grid[][WINDOWSIZE / GRIDSIZE], Node* src);
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(WINDOWSIZE, WINDOWSIZE), "A* Test");
+    sf::RenderWindow window(sf::VideoMode(WINDOWSIZE, WINDOWSIZE), "A* Test", sf::Style::Titlebar | sf::Style::Close);
   
     Node nodes[WINDOWSIZE / GRIDSIZE][WINDOWSIZE / GRIDSIZE];
 
